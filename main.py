@@ -29,6 +29,7 @@ def is_valid_solana_address(address: str) -> bool:
 @retry(stop=stop_after_attempt(3), wait=wait_fixed(2))
 def get_eth_balance(wallet: str) -> float:
     """Fetch Ethereum balance with retry logic."""
+    print(f"Debug: Input Ethereum address: '{wallet}'")
     web3 = Web3(Web3.HTTPProvider(eth_rpc_url))
     if not web3.is_connected():
         raise ConnectionError("❌ Failed to connect to Ethereum network")
