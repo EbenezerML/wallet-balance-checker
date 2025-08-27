@@ -59,7 +59,7 @@ Users can choose between Ethereum and Solana at runtime and input a wallet addre
 
 3. **Provide a wallet address:**
 
-  If you did not set a wallet address in the `.env` file, the script will prompt you to enter one at runtime.
+- If you did not set a wallet address in the `.env` file, the script will prompt you to enter one at runtime.
 
 - **Ethereum Example:**  
   `0x1234567890abcdef1234567890abcdef12345678`
@@ -92,34 +92,34 @@ Users can choose between Ethereum and Solana at runtime and input a wallet addre
 
 6. **🔒 Security Notes**
 
- Never store private keys in the .env file or the repository.
+-  Never store private keys in the .env file or the repository.
 
- This script only uses public wallet addresses.
+-  This script only uses public wallet addresses.
 
- .env is excluded from version control via .gitignore to protect sensitive information.
+-  .env is excluded from version control via .gitignore to protect sensitive information.
 
 7. **🤝 Contributing**
 
-Fork the repository.
+- Fork the repository.
 
-Create a new branch:
+- Create a new branch:
 
-git checkout -b feature-branch
-
-
-Make your changes and commit:
-
-git commit -m "Add new feature"
+- git checkout -b feature-branch
 
 
-Push to your branch:
+- Make your changes and commit:
+   ```bash
+   git commit -m "Add new feature"
 
-git push origin feature-branch
+
+- Push to your branch:
+   ```bash
+  git push origin feature-branch
 
 
-Open a Pull Request on GitHub.
+- Open a Pull Request on GitHub.
 
 8. **📄 License**
 
-This project is licensed under the MIT License.
+- This project is licensed under the MIT License.
 
